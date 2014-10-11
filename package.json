@@ -1,0 +1,10 @@
+{
+  "name": "jamiewoolgar.net",
+  "version": "0.0.1",
+  "description": "The source code for www.jamiewoolgar.net",
+  "author": "Jamie Woolgar",
+  "license": "Creative Commons Attribution Share-Alike",
+  "devDependencies": {
+    "dploy": "~1.2.0"
+  }
+}

@@ -1,0 +1,105 @@
+/**
+ * main.css
+ */
+
+
+/* Base */
+
+body {
+    margin: 0;
+    border-top: 4px solid #444;
+    font: normal normal 100% 'Maven Pro','trebuchet ms',sans-serif;
+    line-height: 1.5em;
+    text-align: center;
+    background: #fff;
+    color: #222;
+}
+
+/* Header */
+
+.header {
+    margin: 1em 0 2em 0;
+}
+
+h1 {
+    font-size: 1.9em;
+    line-height: 1.5em;
+    font-weight: normal;
+}
+
+h2 {
+    margin: 1em 0 0 0;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    font-weight: normal;
+    color: #444;
+}
+
+/* Navigation */
+
+.nav ul {
+    margin: 0 auto;
+    padding: 0;
+    width: auto;
+    font-size: 1.1em;
+    list-style: none;
+}
+
+.nav li {
+    margin: 0 0 2px 0;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+@-webkit-keyframes wobbleHoverText {
+      0% { line-height: 40px; }
+     33% { line-height: 36px; }
+     66% { line-height: 44px; }
+    100% { line-height: 40px; }
+}
+
+@-moz-keyframes wobbleHoverText {
+      0% { line-height: 40px; }
+     33% { line-height: 36px; }
+     66% { line-height: 44px; }
+    100% { line-height: 40px; }
+}
+
+@-o-keyframes wobbleHoverText {
+      0% { line-height: 40px; }
+     33% { line-height: 36px; }
+     66% { line-height: 44px; }
+    100% { line-height: 40px; }
+}
+
+@keyframes wobbleHoverText {
+      0% { line-height: 40px; }
+     33% { line-height: 36px; }
+     66% { line-height: 44px; }
+    100% { line-height: 40px; }
+}
+
+.nav a {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: background-color 0.2s linear;
+       -moz-transition: background-color 0.2s linear;
+         -o-transition: background-color 0.2s linear;
+            transition: background-color 0.2s linear;
+}
+
+.nav a:hover,
+.nav a:focus {
+    background-color: #222;
+    -webkit-animation: wobbleHoverText 0.4s 1;
+       -moz-animation: wobbleHoverText 0.4s 1;
+         -o-animation: wobbleHoverText 0.4s 1;
+            animation: wobbleHoverText 0.4s 1;
+}
