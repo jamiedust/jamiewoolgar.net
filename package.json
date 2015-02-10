@@ -1,9 +1,9 @@
 {
   "name": "jamiewoolgar.net",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The source code for www.jamiewoolgar.net",
-  "author": "Jamie Woolgar",
-  "license": "Creative Commons Attribution Share-Alike",
+  "author": "Jamie 'dust' Woolgar",
+  "license": "ISC",
   "devDependencies": {
     "dploy": "~1.2.0"
   }
